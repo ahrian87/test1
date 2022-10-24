@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Podaj swoje imię: ");
-        String name = sc.nextLine();
-        int age = 35;
-        System.out.println("Hello " + name + ", mam " + age + " lat. ");
+        System.out.print("Podaj pierwszą wartość: ");
+        int number1 = sc.nextInt();
+        System.out.print("Podaj drugą wartość: ");
+        int number2 = sc.nextInt();
+        System.out.println("Wynik to: " + (number1 + number2));
+
     }
 }
